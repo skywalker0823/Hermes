@@ -8,8 +8,8 @@ def create_app():
     socketio.init_app(app)
 
     # DB
-    from .models.db import db
-    db.init_app(app)
+    # from .models.db import db
+    # db.init_app(app)
 
     # Blueprints
     from .views.home import home
